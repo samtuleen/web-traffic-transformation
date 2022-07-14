@@ -2,7 +2,7 @@
 
 This program was created for the When I Work Web Traffic Transformation challenge.
 
-The data was sourced from https://public.wiwdata.com/engineering-challenge/data/ and the url is manipulated so that the lowercase ascii letters (a-z) are appended, followed by the file type (here it is `.csv`) The data is downloaded directly within the program and is re-downloaded each time it is ran. 
+The data was sourced from the root url found [here](https://public.wiwdata.com/engineering-challenge/data/) and the url is manipulated so that the lowercase ascii letters (a-z) are appended, followed by the file type (here it is `.csv`) The data is downloaded directly within the program and is re-downloaded each time it is ran. 
 
 The final outputted `.csv` file is a transformation of the dataframe created into a pivot table, with the user_id set as the index, each webpage visited set into an its own individual column, and the total time spent on each page (length) aggregated for per webpage, per user.
 
